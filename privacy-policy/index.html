@@ -69,7 +69,7 @@
 <main class="sheet">
   <div class="mark">💛</div>
   <h1>Locket — Privacy Policy</h1>
-  <p class="updated">Last updated: September 2026</p>
+  <p class="updated">Last updated: 18 September 2026</p>
 
   <p class="intro">
     Locket (“we”, “us”, “our”) is a private couples memory app. This policy explains what data
@@ -104,9 +104,16 @@
 
   <h3>Photos</h3>
   <p>
-    Profile photos and photos you attach to memories are stored in a private Supabase storage
-    bucket, visible only to you and your partner. The “On This Day” feature reads your photo
-    library <strong>on your device only</strong> — those photos are not uploaded.
+    Profile photos, cover photos, drawings and photos you attach to memories are stored by
+    Supabase. They're served from long, hard-to-guess web addresses that the app only shows to
+    you and your partner, and no one else can browse or list them. Anyone who has the exact
+    address of a photo could still open it, so keep those links to yourselves. Voice letters are
+    stored privately and play through links that expire after an hour.
+  </p>
+  <p>
+    Locket only uploads the photos you choose. It may ask for access to your photo library so you
+    can pick those photos or save a drawing. “On This Day” is built from the milestones you’ve
+    saved in Locket and does not read your photo library.
   </p>
 
   <h3>Location and places</h3>
@@ -188,7 +195,7 @@
   </ul>
 
   <h2>6. Children</h2>
-  <p>Locket is not directed at children under 13, and we do not knowingly collect data from anyone under 13.</p>
+  <p>Locket is for adults aged 18 and over. We do not knowingly collect data from anyone under 18.</p>
 
   <h2>7. Your rights</h2>
   <p>
@@ -200,7 +207,9 @@
   <p>
     Data in transit is encrypted with TLS. Data at rest is encrypted by Supabase's underlying
     infrastructure (AES-256). Access to your couple's data is enforced at the database level — no
-    other user can read your records even if they know your IDs.
+    other user can read your records even if they know your IDs. Photos work a little differently:
+    they're protected by their hard-to-guess addresses rather than by your account, as described
+    under “Photos” above.
   </p>
 
   <h2>9. Changes to this policy</h2>
